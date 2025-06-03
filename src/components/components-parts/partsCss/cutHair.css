@@ -1,0 +1,15 @@
+.hair{
+     width: 180px;height: 400px;
+     background:aliceblue;
+     padding: 20px;
+     position: absolute;
+     transform: translate(-170px,30px);
+     color: black;
+
+}
+@media (max-width:380px){
+     .hair{
+          width: 330px;height: 198px;
+     transform: translate(-185px,30px);
+     }
+}

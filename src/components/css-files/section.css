@@ -1,0 +1,43 @@
+.sec-part {
+  text-align: center;
+}
+.sec-part input {
+  width: 450px;
+  height: 30px;
+  border-radius: 20px;
+  border-style: none;
+  border: 2px solid slateblue;
+  outline: none;
+  padding: 5px 10px 0px 50px;
+  font-size: large;
+  font-weight: 10;
+  font-family: sans-serif;
+  background-color: aliceblue;
+  color: rgb(44, 44, 44);
+}
+.sec-part input::placeholder {
+  font-size: large;
+  font-family: sans-serif;
+  margin-top: -5px;
+}
+.lupa {
+  position: absolute;
+  margin: 10px;
+  font-size: medium;
+  color: #6309ad;
+}
+@media screen and (max-width: 390px) {
+  .sec-part h1 {
+    width: 350px;
+    font-size: 20px;
+  }
+  .sec-part input {
+    width: 240px;
+    height: 20px;
+  }
+  .lupa {
+    font-size: small;
+    line-height: 10px;
+    transform: translateY(-3px);
+  }
+}

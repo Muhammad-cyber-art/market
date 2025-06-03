@@ -1,0 +1,47 @@
+.reel {
+  width: 180px;
+  height: 280px;
+  border-radius: 10px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: baseline;
+  align-items: end;
+  color: aliceblue;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+.reel img {
+  border-radius: 10px;
+  width: 180px;
+  height: 280px;
+}
+.reldes {
+  margin: 0;
+  position: absolute;
+  transform: translate(-20px, 50px);
+}
+.reelHover p {
+  margin: 0;
+  position: absolute;
+  transform: translate(-10px, 70px);
+}
+.reelHover {
+  width: 180px;
+  height: 280px;
+  position: absolute;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.reel:hover .reelHover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.589);
+}
+.reel:hover {
+     transform: translateY(-15px);
+}

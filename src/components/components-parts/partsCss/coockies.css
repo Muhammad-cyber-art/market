@@ -1,0 +1,15 @@
+.cook{
+     width: 180px;height: 400px;
+     background:aliceblue;
+     color: black;
+     padding: 20px;
+     position: absolute;
+     transform: translate(30px,30px);
+}
+@media (max-width:380px){
+     .cook{
+          width: 330px;height: 170px;
+     transform: translate(-185px,30px);
+
+     }
+}

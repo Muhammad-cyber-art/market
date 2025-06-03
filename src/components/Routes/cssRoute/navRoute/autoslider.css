@@ -1,0 +1,12 @@
+.lisss {
+  display: flex;
+  margin-bottom: -50px;
+  transform: translate(-60px, 40px);
+}
+.lisss li {
+  list-style: none;
+  margin-left: 20px;
+}
+.lisss li a{
+  color: slateblue;
+}

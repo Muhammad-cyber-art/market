@@ -1,0 +1,16 @@
+.obedient{
+     width: 1300px;
+     height: 500px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     margin-top: -90px;
+     overflow-y: auto;
+     overflow-x: auto;
+}
+.trash{
+     padding: 5px 5px;
+     background-color: rgb(120, 105, 212);
+     transform: translate(0px,-120px);
+}    

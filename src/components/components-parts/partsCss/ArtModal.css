@@ -1,0 +1,43 @@
+.ourpro {
+  width: 250px;
+  height: 400px;
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  padding: 20px;
+  font-size: 11px;
+  position: absolute;
+  transform: translate(-500px, 30px);
+}
+.ourpro .specialisez {
+  width: 100px;
+  height: 200px;
+}
+.ixtisos {
+  width: 100px;
+  height: 200px;
+  margin-left: 10px;
+}
+@media (max-width: 380px) {
+  .ourpro {
+    width: 330px;height: 260px;
+    transform: translate(-185px, 28px);
+  }
+  .inside{
+     width: 125px;
+  }
+
+  .specialisez p {
+    text-align: justify;
+    /* text-justify: inter-word; */
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+  .specialisez .inside2 {
+    width: 290px;
+  }
+  .ixtisos {
+    transform: translateX(40px);
+    width: 180px;
+  }
+}

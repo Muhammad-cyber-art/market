@@ -1,0 +1,17 @@
+.acs {
+  width: 180px;
+  height: 400px;
+  background: aliceblue;
+  padding: 20px;
+  position: absolute;
+  transform: translate(240px, 30px);
+  color: black;
+
+}
+@media (max-width:380px) {
+    .acs{
+      width: 330px;height: 180px;
+  transform: translate(-185px, 30px);
+
+    }
+}

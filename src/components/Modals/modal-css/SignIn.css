@@ -1,0 +1,95 @@
+.simo{
+     position: fixed;
+     width: 100%;
+     height: 100vh;
+     z-index: 100;
+     background-color: rgba(0, 0, 0, 0.562);
+     margin-top: -8px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.modal{
+     width: 350px;
+     height: 400px;
+     background-color: aliceblue;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     color: black;
+}
+.modal label{
+     margin-top: 20px;
+     text-align: left;
+     margin-left: 50px;
+}
+.modal label input{
+     width: 250px;
+     height: 25px;
+     border-radius: 7px;
+     background-color: aliceblue;
+     border: 2px solid slateblue;
+     outline-style:inherit;
+     outline-color: slateblue;
+     color: black;
+}
+.modal label p{
+     margin: 0;
+     padding: 1px 2px;
+     margin-left: 10px;
+     margin-top: -15px;
+     position: absolute;
+     font-size: small;
+     background-color: aliceblue;
+     border-radius: 8px;
+     user-select: none;
+}
+.cekbox{
+     display: flex;
+     width: 140px;
+     height: 20px;
+     margin-left: 50px;
+     margin-top: 15px;
+}
+.cekbox p{
+     margin: 0;
+     font-size: small;
+}
+.btns{
+     width: 200px;
+     height: 50px;
+     margin-left:80px ;
+     margin-top: 30px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.btns .close,
+.sgbtn{
+     padding:4px 14px ;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     border: 2px solid slateblue;
+     transition: all 0.3s ease;
+}
+.close,
+.close:active{
+     background-color: aliceblue;
+     color: rgb(110, 92, 228);
+}
+
+.sgbtn,
+.sgbtn:active{
+     background-color: slateblue;
+     color: aliceblue;
+}
+.sgbtn:hover{
+     background-color: aliceblue;
+     color: rgb(110, 92, 228)
+}
+.close:hover{
+     background-color: slateblue;
+     color: aliceblue;
+}

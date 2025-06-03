@@ -1,0 +1,25 @@
+
+.globem{
+     width: 50px;height: 70px;
+     background-color: aliceblue;
+     display: none;
+     color: black;
+     font-size: 10px;
+     padding: 10px;
+}
+.globem ul{
+     margin-left: -46px;
+     margin-top: -10px;
+}
+@media screen and (min-width:300px){
+     .globem{
+          display: flex;
+          transform: translate(107px, 40px);
+          position: absolute;
+          border-radius: 7px;
+     }
+     .globem ul li{
+          list-style: none;
+     }
+
+}

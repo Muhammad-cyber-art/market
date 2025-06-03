@@ -1,0 +1,38 @@
+.proin{
+     width: 500px;
+     height: 40px;
+     background-color: aliceblue;
+     border:2px solid slateblue;
+     outline-style: slateblue ;
+     color: black;
+     padding: 0px 10px 0px 10px;
+     font-size: larger  ;
+     border-radius: 20px;
+}
+.btnsent{
+     width: 100px;
+     height: 30px;
+     background-color: slateblue;
+     border: none;
+     border-radius: 20px;
+     transition: all 0.3s ease;
+}
+.btnsent:hover{
+     background-color: rgb(133, 121, 214);
+}
+.btnsent:active{
+     background-color: rgb(93, 73, 218);
+}
+.infosent{
+     width: 400px;
+     height: 200px;
+     background-color: slateblue;
+     position: absolute;
+     border-radius: 10px;
+     color: aliceblue;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 150px;
+     margin-top: -130px;
+}
